@@ -1,6 +1,6 @@
 ---
 - name: install and start httpd
-  hosts: webserver
+  hosts: 10.10.10.107
   tasks:
   - name: install epel repo
     yum: name=epel-release state=latest
